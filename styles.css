@@ -74,7 +74,7 @@ button {
   transition: all 200ms ease-in;
   cursor: pointer;
   text-decoration: none;
-  padding: 1em 6em;
+  padding: 1em 4em;
   font-family: inherit;
   border: none;
   color: var(--Violet);
@@ -147,36 +147,40 @@ footer {
   color: #fff;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 960px) {
   body {
     background-image: url(images/bg-desktop.svg);
     background-size: cover;
   }
 
   .container {
-    width: 1200px;
-    max-width: 100%;
+    width: auto;
+    max-width: 1200px;
     margin: auto;
+    grid-gap: 24rem;
   }
 
   .logo {
-    width: 60%;
+    width: 50%;
   }
+
   .desktop-left .mock-up {
     padding-top: 8rem;
+    width: auto;
   }
+
   .desktop-right {
     padding-top: 19rem;
     margin: 0 auto;
   }
 
   .desktop-right h1 {
-    font-size: 2rem;
+    font-size: 2.1rem;
   }
 
   button {
     display: flex;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .desktop-right h1,
