@@ -46,7 +46,7 @@ html {
 }
 body {
   background-color: var(--Violet);
-  background-image: url(/images/bg-mobile.svg);
+  background-image: url(images/bg-mobile.svg);
   background-repeat: no-repeat;
 
   min-height: 100%;
@@ -149,7 +149,7 @@ footer {
 
 @media screen and (min-width: 1024px) {
   body {
-    background-image: url(/images/bg-desktop.svg);
+    background-image: url(images/bg-desktop.svg);
     background-size: cover;
   }
 
@@ -158,16 +158,25 @@ footer {
     max-width: 100%;
     margin: auto;
   }
+
+  .logo {
+    width: 60%;
+  }
   .desktop-left .mock-up {
     padding-top: 8rem;
   }
   .desktop-right {
-    padding-top: 16rem;
+    padding-top: 19rem;
     margin: 0 auto;
+  }
+
+  .desktop-right h1 {
+    font-size: 2rem;
   }
 
   button {
     display: flex;
+    font-size: 1rem;
   }
 
   .desktop-right h1,
@@ -178,5 +187,10 @@ footer {
   .social-media-links {
     display: flex;
     justify-content: flex-end;
+  }
+
+  .social-media-links a {
+    height: 40px;
+    width: 40px;
   }
 }
