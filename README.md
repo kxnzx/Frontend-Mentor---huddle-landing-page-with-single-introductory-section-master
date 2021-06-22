@@ -21,12 +21,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot 2021-06-22 at 21-08-11 Frontend Mentor Huddle landing page with single introductory section.png]
+![Screenshot](ScreenshotHuddle.png)
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/css-grid-for-responsive-website-pq8XGZVmI]
-- Live Site URL: [https://kxnzx.github.io/Frontend-Mentor---huddle-landing-page-with-single-introductory-section-master/]
+- [See Solution](https://www.frontendmentor.io/solutions/css-grid-for-responsive-website-pq8XGZVmI)
+- [Live Site](https://kxnzx.github.io/Frontend-Mentor---huddle-landing-page-with-single-introductory-section-master/)
 
 ### Built with
 
@@ -45,11 +45,11 @@ Users should be able to:
 
 - The difference between (width:100%) and (width:auto;):
 
-  Width:100%; element(s) take up the exact width of the parent, however it excludes margins and paddings.
-  Width:auto; element(s) take up the width of the parent in which the margins and paddings are included.
+  '''- Width:100%;''' element(s) take up the exact width of the parent, however it excludes margins and paddings.
+  '''- Width:auto;''' element(s) take up the width of the parent in which the margins and paddings are included.
 
 - How to make the footer stick at the bottom. I have achieved this by using the following properties and values:
-
+  '''
   html {
   height: 100%;
   }
@@ -63,8 +63,8 @@ Users should be able to:
   footer {
   margin-top: auto;
   }
+  '''
 
 ## Author
 
-- Website - [kxnzx](https://github.com/kxnzx)
 - Frontend Mentor - [@kxnzx](https://www.frontendmentor.io/profile/kxnzx)
