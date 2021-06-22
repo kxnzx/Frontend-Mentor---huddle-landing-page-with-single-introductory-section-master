@@ -45,17 +45,17 @@ Users should be able to:
 
 - The difference between (width:100%) and (width:auto;):
 
-```
-Width: 100%;
-```
+  ```
+  - Width: 100%;
+  ```
 
-Element(s) take up the exact width of the parent, however it excludes margins and paddings.
+  - Element(s) take up the exact width of the parent, however it excludes margins and paddings.
 
-```
-Width: auto;
-```
+  ```
+  - Width: auto;
+  ```
 
-Element(s) take up the width of the parent in which the margins and paddings are included.
+  - Element(s) take up the width of the parent in which the margins and paddings are included.
 
 - How to make the footer stick at the bottom. I have achieved this by using the following properties and values:
 
