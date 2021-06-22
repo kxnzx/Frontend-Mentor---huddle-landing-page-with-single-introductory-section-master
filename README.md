@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](ScreenshotHuddle.png)
+![Screenshot](images/ScreenshotHuddle.png)
 
 ### Links
 
@@ -45,11 +45,14 @@ Users should be able to:
 
 - The difference between (width:100%) and (width:auto;):
 
-  '''- Width:100%;''' element(s) take up the exact width of the parent, however it excludes margins and paddings.
-  '''- Width:auto;''' element(s) take up the width of the parent in which the margins and paddings are included.
+```
+  - Width:100%; element(s) take up the exact width of the parent, however it excludes margins and paddings.
+  - Width:auto; element(s) take up the width of the parent in which the margins and paddings are included.
+```
 
 - How to make the footer stick at the bottom. I have achieved this by using the following properties and values:
-  '''
+
+```
   html {
   height: 100%;
   }
@@ -63,7 +66,7 @@ Users should be able to:
   footer {
   margin-top: auto;
   }
-  '''
+```
 
 ## Author
 
