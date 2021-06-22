@@ -28,7 +28,6 @@
 /* FONTS */
 body {
   font-family: var(--primary);
-  font-size: var(--fs-400);
 }
 
 h1 {
@@ -38,18 +37,21 @@ h1 {
 
 p {
   line-height: 1.6;
+  font-size: var(--fs-400);
 }
 
 /* BASE STYLES */
 html {
   height: 100%;
 }
+
 body {
   background-color: var(--Violet);
   background-image: url(images/bg-mobile.svg);
   background-repeat: no-repeat;
-
-  min-height: 100%;
+  background-size: contain;
+  /*stick footer at the bottom*/
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
@@ -59,7 +61,10 @@ body h1,
 p {
   color: #fff;
   text-align: center;
-  margin-bottom: 1rem;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
 }
 
 p {
@@ -74,7 +79,7 @@ button {
   transition: all 200ms ease-in;
   cursor: pointer;
   text-decoration: none;
-  padding: 1em 4em;
+  padding: 1em 5em;
   font-family: inherit;
   border: none;
   color: var(--Violet);
@@ -92,7 +97,7 @@ button:hover {
   display: flex;
   justify-content: center;
   list-style-type: none;
-  padding: 0;
+  padding-bottom: 1rem;
 }
 
 .social-media-links a {
@@ -111,28 +116,33 @@ button:hover {
 
 .social-media-links a:hover {
   color: var(--Soft-Magenta);
+  border: 1px solid hsl(300, 69%, 71%);
 }
 
 .container {
   margin: 0 auto;
-  padding: 2em;
-  display: grid;
-  grid-gap: 3em;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 80%;
 }
 
 .logo {
   width: 40%;
-  margin-bottom: 3rem;
+  padding-top: 2rem;
 }
 
 .mock-up {
   width: 100%;
+  margin: 0 auto;
+  padding: 3.5rem 0;
 }
 
-.desktop-right {
+.call-to-action {
   text-align: center;
   margin-bottom: 1rem;
+}
+
+.call-to-action .text {
+  max-width: 40ch;
+  margin: auto;
 }
 
 footer {
@@ -148,6 +158,10 @@ footer {
   color: #fff;
 }
 
+.attribution .highlight {
+  color: var(--Soft-Magenta);
+}
+
 @media screen and (min-width: 960px) {
   body {
     background-image: url(images/bg-desktop.svg);
@@ -155,44 +169,50 @@ footer {
   }
 
   .container {
+    display: flex;
+    gap: 1.8em;
     width: auto;
     max-width: 1200px;
     margin: auto;
-    grid-gap: 24rem;
   }
 
   .logo {
-    width: 50%;
+    max-width: 45%;
   }
 
-  .desktop-left .mock-up {
-    padding-top: 4rem;
+  .hero-image .mock-up {
+    padding-top: 3rem;
     width: auto;
   }
 
-  .desktop-right {
-    padding-top: 13rem;
+  .call-to-action {
+    padding-top: 14rem;
     margin: 0 auto;
+    width: auto;
   }
 
-  .desktop-right h1 {
+  .call-to-action h1 {
     font-size: 2.125rem;
+  }
+
+  .call-to-action .text {
+    max-width: 60ch;
   }
 
   button {
     display: flex;
     font-size: 1.2rem;
     margin-bottom: 12rem;
+    padding: 0.7em 4em;
   }
 
-  .desktop-right h1,
+  .call-to-action h1,
   p {
     text-align: left;
   }
 
   .social-media-links {
-    display: flex;
-    justify-content: flex-end;
+    margin-left: auto;
   }
 
   .social-media-links a {
