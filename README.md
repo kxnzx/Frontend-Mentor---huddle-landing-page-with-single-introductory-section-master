@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - [See Solution](https://www.frontendmentor.io/solutions/css-grid-for-responsive-website-pq8XGZVmI)
-- [Live Site](https://kxnzx.github.io/Frontend-Mentor---huddle-landing-page-with-single-introductory-section-master/)
+- [Live Site](https://kxnzx.github.io/huddle-landing-page/)
 
 ### Built with
 
