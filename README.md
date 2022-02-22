@@ -1,4 +1,4 @@
-# Frontend Mentor - Huddle landing page with single introductory section solution
+# Frontend Mentor - Huddle Landing Page with Single Introductory Section Solution
 
 This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -6,6 +6,9 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
@@ -21,12 +24,20 @@ Users should be able to:
 
 ### Screenshot
 
+#### Screensize 1440px - Desktop
+
 ![Screenshot](images/ScreenshotHuddle.png)
+
+#### Screensize 375px - Mobile
+
+<img src="images/Screenshotmobile.png" width="150px" alt="mobile">
 
 ### Links
 
-- [See Solution](https://www.frontendmentor.io/solutions/css-grid-for-responsive-website-pq8XGZVmI)
-- [Live Site](https://kxnzx.github.io/huddle-landing-page/)
+- View my Solution on [Frontend Mentor](https://www.frontendmentor.io/solutions/css-grid-for-responsive-website-pq8XGZVmI)
+- View the Live Site [here](https://kxnzx.github.io/huddle-landing-page/)
+
+## My process
 
 ### Built with
 
@@ -59,7 +70,7 @@ Users should be able to:
 
 - How to make the footer stick at the bottom. I have achieved this by using the following properties and values:
 
-```
+```css
   html {
   height: 100%;
   }
